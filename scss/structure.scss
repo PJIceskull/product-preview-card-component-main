@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: $Cream;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+// Import Styles
+// use @Import rule if you're not using link tag to import fonts.
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+// Font Families
+// font-family: 'Fraunces', serif;
+// font-family: 'Montserrat', sans-serif;
+
+p,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+  min-height: $site-height;
+  // max-width: $site-width;
+  max-width: $Desktop-width;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  // text-align: center;
+}

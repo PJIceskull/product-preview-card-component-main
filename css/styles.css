@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(242, 235, 227);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+p,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  min-height: 90vh;
+  max-width: 1440vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Perfume_Card {
+  width: 600px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 8px;
+}
+
+.Card_Image,
+.Card_text {
+  width: 50%;
+}
+
+.Card_Image {
+  background-color: red;
+  overflow: hidden;
+  max-height: 400px;
+  border-radius: 8px 0 0 8px;
+}
+.Card_Image img {
+  height: fit-content;
+}
+
+.Card_text {
+  padding: 30px;
+}
+.Card_text h1,
+.Card_text h2,
+.Card_text h3 {
+  font-family: "Fraunces", serif;
+}
+.Card_text p {
+  color: rgb(108, 114, 137);
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background-color: rgb(60, 128, 103);
+  border-style: none;
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button img {
+  margin-right: 10px;
+}
+button:hover {
+  background-color: rgb(28, 35, 43);
+}
+
+/*# sourceMappingURL=styles.css.map */
